@@ -25,6 +25,8 @@ func main() {
 
 	} else {
 		fmt.Printf("Sorry, you are not old enough to play this game.")
+	} else {
+		fmt.Println("Invalid input. Please enter a valid age.")
 	}
 
 }
