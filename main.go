@@ -27,4 +27,10 @@ func main() {
 		fmt.Printf("Sorry, you are not old enough to play this game.")
 	} 
 
+	if age <= 22 {
+		fmt.Println("Hello 22")
+	} else {
+		fmt.Println("Not seen!")
+	}
+
 }
